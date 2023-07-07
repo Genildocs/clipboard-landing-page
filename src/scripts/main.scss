@@ -1,0 +1,13 @@
+@use "../node_modules/bulma/bulma.sass";
+@use "./components/logo";
+@use "./layout/header";
+@use "./components/buttons";
+@use "./components/sectiontext";
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    min-height: 100vh;
+}

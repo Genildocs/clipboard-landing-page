@@ -1,0 +1,5 @@
+@use "../mixins";
+.logo{
+    @include mixins.flex;
+    margin-bottom: 5rem;
+}
