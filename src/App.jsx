@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './layout/Header'
-import SectionText from './componentes/SectionText'
+import TreeStyle from './componentes/TreeStyle'
 
 function App() {
   
 
   return (
     <>
-      <Header />
-      <SectionText />
+      <Header />    
+      <TreeStyle />
     </>
   )
 }
