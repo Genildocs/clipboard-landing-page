@@ -28,6 +28,10 @@ export const Title = styled.h2`
   line-height: normal;
   letter-spacing: -0.391px;
   margin-bottom: 0.8px;
+
+  @media (max-width: 500px){
+    text-align: center;
+  }
 `
 export const Paragraph = styled.p`
   color: #9EABB2;
@@ -39,6 +43,10 @@ export const Paragraph = styled.p`
   letter-spacing: 0.12px;  
   width: 100%;
   max-width: 35rem;
+
+  @media (max-width: 500px){
+    text-align: center;
+  }
 `
 
 export const Image = styled.img`
