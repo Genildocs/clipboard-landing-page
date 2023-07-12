@@ -1,19 +1,5 @@
 import React from "react"
-import styled from "styled-components"
-
-export const Wrapper = styled.div`
-
-
-`
-
-export const Title = styled.h2`
-
-`
-export const Paragraph = styled.p`
-    
-
-`
-
+import {Title, Paragraph} from "./SectionStyle.js";
 export default function TreeStyle() {
   const treeStyles = [
     {
@@ -41,9 +27,9 @@ export default function TreeStyle() {
 
 function TreeStyleItem({ title, paragraph }) {
   return (
-    <Wrapper>
-      <Title>{title}</Title>
-      <Paragraph>{paragraph}</Paragraph>
-    </Wrapper>
+      <div>
+        <Title>{title}</Title>
+        <Paragraph>{paragraph}</Paragraph>
+      </div>
   );
 }
