@@ -1,15 +1,14 @@
 import React from 'react'
 import Header from './layout/Header'
-import TreeStyle from './componentes/TreeStyle'
-import ImageComputer from "./componentes/ImageComputer.jsx";
+import TreeStyle from './componentes/Paragraph/Section'
+import ImageComputer from "./componentes/UserImages/ImageComputer.jsx";
 
 function App() {
   
 
   return (
     <>
-      <Header />
-      <ImageComputer />
+      <h1>Refatorando o projeto</h1>
     </>
   )
 }

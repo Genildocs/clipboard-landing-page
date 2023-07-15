@@ -1,7 +1,7 @@
 import React from "react";
-import Logo from "../componentes/Logo";
-import Button from "../componentes/Button";
-import SectionText from "../componentes/SectionText";
+import Logo from "../componentes/Logo/Logo";
+import Button from "../componentes/Buttons/Button";
+import SectionText from "./SectionText";
 
 export default function Header() {
     return (
