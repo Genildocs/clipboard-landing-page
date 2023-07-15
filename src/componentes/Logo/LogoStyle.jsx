@@ -4,8 +4,7 @@ import Styled from "styled-components";
 
 
 export const ContainerImg = Styled.div`
-    background-color: red;
-    padding: 2rem
+    padding-top: 12rem
 `
 
 export const Image = Styled.img`
