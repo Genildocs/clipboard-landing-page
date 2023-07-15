@@ -1,14 +1,13 @@
 import React from 'react'
-import Header from './layout/Header'
-import TreeStyle from './componentes/Paragraph/Section'
-import ImageComputer from "./componentes/UserImages/ImageComputer.jsx";
+import './Sass/main.scss'
+import Header from './layout/Header/Header'
 
 function App() {
   
 
   return (
-    <>
-      <h1>Refatorando o projeto</h1>
+    <>       
+       <Header />
     </>
   )
 }
