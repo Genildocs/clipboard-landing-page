@@ -1,7 +1,7 @@
 import React from "react";
-import ImagePC from "../assets/images/image-computer.png";
-import {Wrapper, Image} from "../Paragraph/SectionStyle.js";
-import TreeStyle from "../Paragraph/Section.jsx";
+import ImagePC from "../../assets/images/image-computer.png";
+import {Wrapper, Image} from "../SOne/SectionStyle.jsx"
+import TreeStyle from "../SOne/Section.jsx";
 
 
 export default function ImageComputer(){

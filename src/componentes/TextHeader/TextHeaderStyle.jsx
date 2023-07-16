@@ -19,6 +19,9 @@ export const Title = styled.h1`
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.75px;
+  @media(max-width: 500px){
+    margin-bottom: 1.5rem;
+  }
     
 `
 export const Paragraph = styled.p`

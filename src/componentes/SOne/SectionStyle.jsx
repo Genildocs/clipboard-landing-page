@@ -31,6 +31,7 @@ export const Title = styled.h2`
 
   @media (max-width: 500px){
     text-align: center;
+    
   }
 `
 export const Paragraph = styled.p`
@@ -46,6 +47,7 @@ export const Paragraph = styled.p`
 
   @media (max-width: 500px){
     text-align: center;
+    margin-bottom: 5rem;
   }
 `
 
@@ -53,6 +55,7 @@ export const Image = styled.img`
   margin-left: -6rem;
   @media(max-width: 500px){
     margin-left: 0;
+    margin-bottom: 5rem;
     max-width: 85%;
   }
 `

@@ -1,5 +1,6 @@
 import React from "react";
 import { Wrapper } from "./ButtonStyle";
+import '../../Sass/main.scss';
 
 export default function Button(){
 
