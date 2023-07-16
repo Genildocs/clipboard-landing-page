@@ -1,7 +1,7 @@
 import React from "react"
 import {Title, Paragraph} from "./SectionStyle.js";
-export default function TreeStyle() {
-  const treeStyles = [
+export default function Section() {
+  const section = [
     {
       title: 'Quick Search',
       paragraph: 'Easily search your snippets by content, category, web address, application, and more.'
@@ -18,7 +18,7 @@ export default function TreeStyle() {
 
   return (
     <>
-      {treeStyles.map((style, index) => (
+      {section.map((style, index) => (
         <TreeStyleItem key={index} title={style.title} paragraph={style.paragraph} />
       ))}
     </>
