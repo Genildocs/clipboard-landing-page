@@ -12,16 +12,18 @@ function App() {
   
 
   return (
-    <>       
-       <Header />
-       <SectionOne />
-       <Cards />
-       <Marca />
-       <TextCenter title={'Clipboard for iOS and Mac OS'}
-                   text={'Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.'}  />
-       <div className="app">
-          <Button />
-       </div>
+    <> 
+      <div className='gran-container'>            
+        <Header />
+        <SectionOne />
+        <Cards />
+        <Marca />
+        <TextCenter title={'Clipboard for iOS and Mac OS'}
+                    text={'Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.'}  />
+        <div className="app">
+            <Button />
+        </div>
+       </div>  
        <Footer />
     </>
   )

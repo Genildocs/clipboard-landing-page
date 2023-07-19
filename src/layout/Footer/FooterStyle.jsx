@@ -8,6 +8,11 @@ export const ContainerFooter = styled.div`
     justify-content: space-around;
     align-items: center;
 
+    @media(max-width:500px){
+        flex-direction: column;
+        height: 100%;
+    }
+
 `
 
 export const ImageLogo = styled.img`
@@ -15,12 +20,18 @@ export const ImageLogo = styled.img`
     height: 5.5rem; 
     fill: #26BBA4;
     color: #26BBA4;
+    margin: 4rem 0;
     
 `
 
 export const TextFooter = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+    @media(max-width:500px){
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
 `
 
 export const Text = styled.a`
@@ -31,6 +42,10 @@ export const Text = styled.a`
     line-height: 3rem; /* 166.667% */
     letter-spacing: 0.135px;
     transition: all 0.5s;
+    
+    @media(max-width:500px){
+        text-align: center;
+    }
 
     &:hover {
         color: #26BBA4;
@@ -38,7 +53,7 @@ export const Text = styled.a`
 `
 
 export const SocialMedia = styled.div`
-
+    margin-top: 4rem;
 `
 
 export const SocialMediaLink = styled.a`
@@ -51,5 +66,9 @@ export const SocialMediaLink = styled.a`
 
 export const ImgSocialMedia = styled.img`
     margin-left: 1.5rem;
+
+    @media(max-width:500px){
+        margin-left: 4rem;
+    }
 
 `

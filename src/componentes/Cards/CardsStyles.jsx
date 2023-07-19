@@ -38,6 +38,9 @@ export const Text = styled.p`
     width: 100%;
     max-width: 35rem;
 
+    @media(max-width:500px){
+        margin-bottom: 4rem;
+    }
 `
 
 export const Image = styled.img `
