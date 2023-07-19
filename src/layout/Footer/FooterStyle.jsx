@@ -72,3 +72,15 @@ export const ImgSocialMedia = styled.img`
     }
 
 `
+
+export const Credits = styled.p`
+    background-color: rgba(158, 171, 178, 0.1); 
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+
+    @media(max-width:500px){
+        margin-top: 2rem;
+    }
+`
