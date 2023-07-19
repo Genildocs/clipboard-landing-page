@@ -2,6 +2,8 @@ import React from "react";
 import ImageComputer from "../../componentes/UserImages/ImageComputer.jsx";
 import TextCenter from "../../componentes/TextCenter/TextCenter.jsx";
 import ImageComputerSmartphone from "../../componentes/UserImages/ImageComputerSmartphone.jsx";
+
+
 export default function SectionOne(){
     return(
         <>
@@ -13,6 +15,7 @@ export default function SectionOne(){
             <TextCenter title={'Supercharge your workflow'}
                         text={'We’ve got the tools to boost your productivity.'}
             />
+            
         </>
     )
 }
